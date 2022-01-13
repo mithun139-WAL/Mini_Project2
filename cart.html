@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cart</title>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="cart.css"> -->
+</head>
+<body>
+    <div class="container-fluid p-0">
+        <header class="container-fluid p-0 d-inline-flex">
+            <h3><a href="mini_project.html" role="button"><i class="fa fa-shopping-cart"></i>Shoppingcart</a> </h3>
+            <nav>
+                <a class="" href="#" role="button"><i class="fa fa-user-circle fa-3x" aria-hidden="true"></i></a>
+                
+            </nav>
+        </header>
+        <main id="main">
+            <section id="products" class="container mx-2 my-2">
+                <h4>My Cart</h4>
+                <div class="container">
+                    <div class="row container">
+                        <div class="container">
+                            <h5>Product Details:</h5>
+                            <div class="my-2">
+                                <div class="container" id="display_here"></div>
+                                <div class="container" id="display_price"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="total" class="container mr-2 my-2">
+                <h5>Total Price: </h5>
+                <div class="container" id="display_total">
+                    <div class="container" id="list" ></div>
+                    <div class="container my-2" id="sum_total"></div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="cart.js"></script>
+</body>
+</html>

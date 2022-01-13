@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping cart</title>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-fluid p-0">
+        <header class="container-fluid p-0 d-inline-flex">
+            <h3><i class="fa fa-shopping-cart"></i>Shoppingcart</h3>
+            <nav class="">
+                <a href="#" role="button"><i class="fa fa-user-circle fa-3x" aria-hidden="true"></i></a>
+                <a onclick="cart()" href="cart.html" target="_blank" role="button"><i class="fa fa-shopping-cart fa-3x "></i><span
+                        id="cart-badge" class="badge badge-pill">0</span></a>
+            </nav>
+        </header>
+        <div class="row mx-5 container-fluid m-4">
+            <div class=" product m-1 text-center">
+                <article>
+                    <img src="images/iPhone13pro.jpg">
+                    <div class="card-body">
+                        <p class="card-title" id="name1">Apple iPhone 13 Pro Max</p>
+                        <p class="card-text" id="cost1">₹ 1,59,999</p>
+                        <button class="btn btn-warning" id="159999" data-name="Apple iPhone 13 Pro Max"
+                            data-cost="159999" onclick="addtoCart(this)">Add to Cart</button>
+                    </div>
+                </article>
+            </div>
+            <div class="product m-1 text-center">
+                <article>
+                    <img src="images/oneplus.jpg">
+                    <div class="card-body">
+                        <p class="card-title" id="name2">OnePlus Nord 2 5G</p>
+                        <p class="card-text" id="cost2"> ₹ 27,999</p>
+                        <button class="btn btn-warning" data-name="OnePlus Nord 2 5G" data-cost="27999" id="cart2"
+                            onclick="addtoCart(this)">Add to Cart</button>
+                    </div>
+                </article>
+            </div>
+            <div class="product m-1 text-center">
+                <article>
+                    <img src="images/oneplus9.jpg">
+                    <div class="card-body">
+                        <p class="card-title" id="name3">OnePlus 9R 5G</p>
+                        <p class="card-text" id="cost3"> ₹ 39,999</p>
+                        <button class="btn btn-warning" id="cart3" data-name="OnePlus 9R 5G" data-cost="39999"
+                            onclick="addtoCart(this)">Add to Cart</button>
+                    </div>
+                </article>
+            </div>
+            <div class="product m-1 text-center">
+                <article>
+                    <img src="images/oneplus7.jpg">
+                    <div class="card-body">
+                        <p class="card-title" id="name4">OnePlus 7T</p>
+                        <p class="card-text" id="cost4">₹ 15,999</p>
+                        <button class="btn btn-warning" id="cart4" data-name="OnePlus 7T" data-cost="15999"
+                            onclick="addtoCart(this)">Add to Cart</button>
+                    </div>
+                </article>
+            </div>
+            <div class="product m-1 text-center">
+                <article>
+                    <img src="images/nokia.jpg">
+                    <div class="card-body">
+                        <p class="card-title" id="name5">Nokia G10</p>
+                        <p class="card-text" id="cost5">₹ 11,999</p>
+                        <button class="btn btn-warning" id="cart5" data-name="Nokia G10" data-cost="11999"
+                            onclick="addtoCart(this)">Add to Cart</button>
+                    </div>
+                </article>
+            </div>
+            <div class="product m-1 text-center">
+                <article>
+                    <img src="images/oppo.jpg">
+                    <div class="card-body">
+                        <p class="card-title" id="name6">Oppo F17 Pro</p>
+                        <p class="card-text" id="cost6">₹ 19,499</p>
+                        <button class="btn btn-warning" id="cart6" data-name="Oppo F17 Pro" data-cost="19499"
+                            onclick="addtoCart(this)">Add to Cart</button>
+                    </div>
+                </article>
+            </div>
+            <div class="product m-1 text-center">
+                <article>
+                    <img src="images/iphone.jpg">
+                    <div class="card-body">
+                        <p class="card-title" id="name7">Apple iPhone 12</p>
+                        <p class="card-text" id="cost7"> ₹ 60,999</p>
+                        <button class="btn btn-warning" id="cart7" data-name="Apple iPhone 12" data-cost="60999"
+                            onclick="addtoCart(this)">Add to Cart</button>
+                    </div>
+                </article>
+            </div>
+            <div class="product m-1 text-center">
+                <article>
+                    <img src="images/iphone13.jpg">
+                    <div class="card-body">
+                        <p class="card-title" id="name8">Apple iPhone 13</p>
+                        <p class="card-text" id="cost8"> ₹ 79,999</p>
+                        <button class="btn btn-warning" id="cart8" data-name="Apple iPhone 13" data-cost="79,999"
+                            onclick="addtoCart(this)">Add to Cart</button>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
