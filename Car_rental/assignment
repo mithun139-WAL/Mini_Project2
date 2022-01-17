@@ -1,0 +1,6 @@
+Create a car rental website. 
+Create a registration form with car model ( select), car color(input type color), daily cost of rental, and car I'd(number).
+U can click add car to add a car in local storage.. each car is one object to add into an array and store array in json. 
+Show a page where u will show car details in a card  with add to Cart button. 
+When u click add to cart it should add all car details in carts array .store it in local storage again. 
+Create a cart items page .show all cars that are added to cart. And also show total cost of items in cart.
